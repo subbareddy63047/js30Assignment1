@@ -1,0 +1,79 @@
+.maincontainer{
+    overflow-y:auto ;
+    background-image: url("./images/david-bruyndonckx-F_hft1Wiyj8-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: "roboto";
+    font-weight: bolder;
+    font-size: 50px;
+}
+.backgroundContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    
+
+}
+
+.divContainer{
+    transition: all 0.5s ease;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    width: 25%;
+    height: 25%;
+    border-radius:7%;
+    background-position: center;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+
+}
+@media screen and (max-width:768px){
+    .divContainer{
+       width: 35%;
+    }
+    h1{
+        font-size:30px;
+    }
+}
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    width: 30%;
+    height: 30%;
+    background-color:rgb(54, 55, 55);
+}
+.textEle{
+    color:white;
+    font-family: "roboto";
+    font-size:150%;
+    font-weight: bold;
+}
+.titleEle{
+    display: block;
+    color: yellow;
+    font-family: "roboto";
+    font-size: 60%;
+    font-weight: bold;
+}
+
+.playing {
+    transform: scale(1.5);
+    border-color: #ffc600;
+    border: 2px slid yellow;
+    box-shadow: 0 0 1rem #ffc600;
+  }
